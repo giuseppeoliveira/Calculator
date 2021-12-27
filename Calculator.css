@@ -4,16 +4,16 @@
 }
 
 .fundo {
-    background-image: linear-gradient(45deg,black, rgb(148, 40, 40));
+    background-image: linear-gradient(45deg,rgb(88,133,175), rgb(202,255,208));
     height: 100vh;
-    color: white;
+    color: rgb(30, 16, 20);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 .calculator {
     position: absolute;
-    background-color: rgba(0, 0, 0, 70%);
+    background-color: #274472;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -27,13 +27,15 @@
     font-size: 25px;
     cursor :pointer;
     margin: 3px;
-    background-color: rgba(31,31,31);
+    background-color: #41729F;
     border: none;
     color: white;    
 }
 
 .buttons:hover {
-    background-color: rgb(8, 0, 56);
+    background-color: #C3E0E5;
+    color: rgb(0, 0, 0);
+    transition:0.4s;
 }
 
 #result {
@@ -44,5 +46,6 @@
     text-align: right;
     padding: 5px;
     color: rgb(0, 7, 100);
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255);
+    overflow:hidden;
 }
