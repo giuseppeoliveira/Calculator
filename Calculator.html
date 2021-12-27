@@ -17,8 +17,8 @@
             <P id="result"></P>
             <table>
                 <tr>
-                    <td><button class="buttons" >C</button></td>
-                    <td><button class="buttons" >◄</button></td>
+                    <td><button class="buttons" onclick="del()">C</button></td>
+                    <td><button class="buttons" onclick="back()">◄</button></td>
                     <td><button class="buttons" onclick="insert('/')">/</button></td>
                     <td><button class="buttons" onclick="insert('*')">X</button></td>
                 </tr>
@@ -38,7 +38,7 @@
                     <td><button class="buttons" onclick="insert('1')">1</button></td>
                     <td><button class="buttons" onclick="insert('2')">2</button></td>
                     <td><button class="buttons" onclick="insert('3')">3</button></td>
-                    <td rowspan="2"><button class="buttons" style="height: 106px;">=</button></td>
+                    <td rowspan="2"><button class="buttons" style="height: 106px;" onclick="equal()">=</button></td>
                 </tr>
                 <tr>
                     <td colspan="2"><button class="buttons" style="width: 106px;" onclick="insert('0')">0</button></td>
