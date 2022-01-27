@@ -3,6 +3,18 @@
 </p>
 
 # Calculator
-My first projetct using JS/CSS/HTML. I've made an calculator, but in the future I will made other changes.
+My first projetct using JS/CSS/HTML. I've made some new changes in 27/01/2022. 
+
+- Changed all CSS file.
+- Add jQuery code.
+- Put NavBar (Preview to future website).
+- Created negative numbers.
+
+
+Next step's:
+- Config number total of digits.
+- Add sounds on buttons.
+- Add RegEx
+
 
 https://giuseppeoliveira.github.io/Calculator/

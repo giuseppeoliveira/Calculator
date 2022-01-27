@@ -19,41 +19,42 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/AlienHead.png" alt="logo" width="50" class="icone">
     </div> 
 
-    <div class="container">
+<div id="box">
+    <div class="calculator">
         <header class="top">
+            <p class="logo">SCARLET ®</p>
             <form class="form" method="">
+                <div class="op">
                 <label id="op"></label>
-                <input type="number" id="result" class="campo">
+                </div>
+                <input type="text" id="result" class="campo" >
             </form>
         </header> 
         <section class="body">
+            <input type="button" value="C" name="ce" class="btnV">
+            <input type="button" value="⬅" name="c" class="btn">
+            <input type="button" value="±" name="neg" class="btn">
+            <input type="button" value="÷" name="divs" class="btnA">
             <input type="button" value="7" name="btn" class="btn">
             <input type="button" value="8" name="btn" class="btn">
             <input type="button" value="9" name="btn" class="btn">
-            <input type="button" value="+" name="soma" class="btn">
-            <input type="button" value="C" name="c" class="btn">
+            <input type="button" value="+" name="soma" class="btnA">
             <input type="button" value="4" name="btn" class="btn">
             <input type="button" value="5" name="btn" class="btn">
             <input type="button" value="6" name="btn" class="btn">
-            <input type="button" value="-" name="sub" class="btn">
-            <input type="button" value="CE" name="ce" class="btn">
+            <input type="button" value="-" name="sub" class="btnA">
             <input type="button" value="1" name="btn" class="btn">
             <input type="button" value="2" name="btn" class="btn">
             <input type="button" value="3" name="btn" class="btn">
-            <input type="button" value="*" name="mult" class="btn">
-            <input type="button" value="/" name="divs" class="btn">
-            <input type="button" value="," name="virg" class="btn">
-            <input type="button" value="0" name="btn" class="btn zero">
-            <input type="button" value="=" name="equal" class="btn equal">
+            <input type="button" value="x" name="mult" class="btnA">
+            <input type="button" value="0" name="btn" class="btn">
+            <input type="button" value="." name="virg" class="btn">
+            <input type="button" value="=" name="equal" class="btnA">
         </section>
-    </div>
-    
-    <div class="options">
-        <input type="button" value="music" name="btn" class="btn music">
-        <input type="button" value="color" name="btn" class="btn color">
-    </div>
 
-    
+    </div>  
+</div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="scripts.js"></script>
