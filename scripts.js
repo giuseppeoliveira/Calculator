@@ -68,7 +68,7 @@ $(function(){
                 break;
                 case "mult": v3 = v1*v2;
                 break;
-                case "divs": v3 = v1/v2 || alert('You cant do that, are you trying to explode the world?');
+                case "divs": v3 = v1/v2 || alert("You can't do that, are you trying to explode the world?");
                 break; 
                 default:alert('erro');
             }
