@@ -82,10 +82,12 @@ $(function(){
         value = $("#result").val()
         $("#result").val(value.substring(0, value.length-1));
     });
-    /*
+
     $("input[name=neg]").click(function(){
-    });
-    */
+        $("#result").val($("#result").val() * -1);
+
+    });  
+
     $("input[name=virg]").click(function(){
     const text = $("#result").val();
     if(!text.includes (".")){
