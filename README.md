@@ -3,7 +3,7 @@
 </p>
 
 # Calculator
-My first projetct using JS/CSS/HTML. I've made some new changes in 27/01/2022. 
+My first projetct using JS/CSS/HTML. I've made some new changes in 31/01/2022. 
 
 - Changed all CSS file.
 - Add jQuery code.
@@ -14,7 +14,7 @@ My first projetct using JS/CSS/HTML. I've made some new changes in 27/01/2022.
 Next step's:
 - Config number total of digits.
 - Add sounds on buttons.
-- Add RegEx
+- Add RegEx to only accept numbers.
 
 
 https://giuseppeoliveira.github.io/Calculator/
