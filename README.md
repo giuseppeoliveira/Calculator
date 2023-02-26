@@ -15,6 +15,6 @@ Next step's:
 - Config number total of digits.
 - Add sounds on buttons.
 - Add RegEx to only accept numbers.
-
+-
 
 https://giuseppeoliveira.github.io/Calculator/
