@@ -2,19 +2,22 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-# Calculator
-My first projetct using JS/CSS/HTML. I've made some new changes in 31/01/2022. 
+<h1>Calculator</h1>
 
-- Changed all CSS file.
-- Add jQuery code.
-- Put NavBar (Preview to future website).
-- Created negative numbers.
+<p>This is a simple calculator project created with HTML, CSS, and JavaScript.</p>
 
+<h2>Usage</h2>
 
-Next step's:
-- Config number total of digits.
-- Add sounds on buttons.
-- Add RegEx to only accept numbers.
+<p>Simply open the index.html file in your browser and start calculating!</p>
 
+<h2>Features</h2>
 
+<ul>
+  <li>Basic arithmetic operations: addition, subtraction, multiplication, and division</li>
+  <li>Clear button to reset the calculator</li>
+</ul>
+
+<h2>Author</h2>
+
+<p>Giuseppe S. O.</p>
 https://giuseppeoliveira.github.io/Calculator/
