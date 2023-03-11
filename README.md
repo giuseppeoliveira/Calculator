@@ -1,31 +1,27 @@
-<p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
-
-<h1>Calculator</h1>
-
-<p>This is a simple calculator project created with HTML, CSS, and JavaScript.</p>
-
-<h2>Usage</h2>
-
-<<<<<<< HEAD
-Next step's:
-- Config number total of digits.
-- Add sounds on buttons.
-- Add RegEx to only accept numbers.
--
-=======
-<p>Simply open the index.html file in your browser and start calculating!</p>
-
-<h2>Features</h2>
->>>>>>> a1a840ca71b6c7c3c7fb94b0116de60ce453c2ed
-
+<h1>Calculator - Giuseppe Oliveira</h1>
+<p>This is a JavaScript calculator project. The calculator has a simple and intuitive interface, allowing the user to perform basic calculations, such as addition, subtraction, multiplication, and division. Additionally, the calculator also allows calculating percentages and square roots.</p>
+<h2>Installation</h2>
+<p>To install and use this project, follow these steps:</p>
+<ol>
+  <li>Clone or download the GitHub repository to your machine.</li>
+  <li>Open the `index.html` file in your web browser.</li>
+</ol>
+<h2>How to use</h2>
+<ol>
+  <li>To use the calculator, simply click the numeric and operational buttons in the interface to input numbers and perform calculations.</li>
+  <li>To calculate a percentage, input the value and click the `%` button. Then, input the desired percentage and click the `=` button.</li>
+  <li>To calculate the square root of a number, input the number and click the `√` button.</li>
+  <li>To clear the calculator result and start a new operation, click the `C` button.</li>
+</ol>
+<h2>Functionalities</h2>
+<p>The calculator offers the following functionalities:</p>
 <ul>
-  <li>Basic arithmetic operations: addition, subtraction, multiplication, and division</li>
-  <li>Clear button to reset the calculator</li>
+  <li>Addition (+)</li>
+  <li>Subtraction (-)</li>
+  <li>Multiplication (*)</li>
+  <li>Division (/)</li>
+  <li>Percentage (%)</li>
+  <li>Square root (√)</li>
 </ul>
-
 <h2>Author</h2>
-
-<p>Giuseppe S. O.</p>
-https://giuseppeoliveira.github.io/Calculator/
+<p>This project was created by Giuseppe Oliveira. For more information, visit his GitHub profile: https://github.com/giuseppeoliveira.</p>
