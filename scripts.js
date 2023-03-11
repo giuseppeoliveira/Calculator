@@ -68,8 +68,13 @@ $(function(){
                 break;
                 case "mult": v3 = v1*v2;
                 break;
-                case "divs": v3 = v1/v2 || alert("You can't do that, are you trying to explode the world?");
-                break; 
+                case "divs": 
+                    if (v2 === 0) {
+                        v3 = 0;
+                    } else {
+                        v3 = v1/v2;
+                    }
+                    break; 
                 default:alert('erro');
             }
 
@@ -89,10 +94,9 @@ $(function(){
     });  
 
     $("input[name=virg]").click(function(){
-    const text = $("#result").val();
-    if(!text.includes (".")){
-    $("#result").val($("#result").val() + ".");
-    }
-
+        const text = $("#result").val();
+        if(!text.includes (".")){
+            $("#result").val($("#result").val() + ".");
+        }
     });
 });
