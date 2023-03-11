@@ -1,5 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@100;400&display=swap');
 
+/* Para telas com menos de 600 pixels de largura */
+@media (max-width: 600px) {
+  #result {
+    font-size: 20px;
+  }
+  .btn {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px 5px 2px;
+  }
+  .btnA {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px 5px 2px;
+  }
+  .btnV {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px 5px 2px;
+  }
+}
+
+/* Para telas com menos de 400 pixels de largura */
+@media (max-width: 400px) {
+  #result {
+    font-size: 16px;
+  }
+  .btn {
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    margin: 0 1px 3px 1px;
+  }
+  .btnA {
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    margin: 0 1px 3px 1px;
+  }
+  .btnV {
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    margin: 0 1px 3px 1px;
+  }
+}
+
+
 /* Remove Arrows Box*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button 
